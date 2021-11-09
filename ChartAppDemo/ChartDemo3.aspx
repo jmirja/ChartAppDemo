@@ -27,6 +27,7 @@
                     </AxisX>
                     <AxisY Title="Total Marks">
                     </AxisY>
+                    <Area3DStyle Enable3D="true" WallWidth="20" />
                 </asp:ChartArea>
             </ChartAreas>
         </asp:Chart>
