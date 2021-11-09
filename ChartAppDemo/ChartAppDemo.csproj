@@ -109,6 +109,7 @@
     <Content Include="About.aspx" />
     <Content Include="ChartDemo.aspx" />
     <Content Include="ChartDemo1.aspx" />
+    <Content Include="ChartDemo2.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -185,6 +186,13 @@
     </Compile>
     <Compile Include="ChartDemo1.aspx.designer.cs">
       <DependentUpon>ChartDemo1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChartDemo2.aspx.cs">
+      <DependentUpon>ChartDemo2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChartDemo2.aspx.designer.cs">
+      <DependentUpon>ChartDemo2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChartDemo1.aspx.cs" Inherits="ChartAppDemo.ChartDemo1" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChartDemo2.aspx.cs" Inherits="ChartAppDemo.ChartDemo2" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 <table style="border: 1px solid black; font-family: Arial">
@@ -20,7 +20,7 @@
                 </asp:Title>
             </Titles>
             <Series>
-                <asp:Series Name="Series1" ChartArea="ChartArea1" ChartType="Pie">
+                <asp:Series Name="Series1" XValueMember="StudentName" YValueMembers="TotalMarks" ChartArea="ChartArea1" ChartType="Pie">
                 </asp:Series>
             </Series>
             <ChartAreas>
