@@ -111,6 +111,7 @@
     <Content Include="ChartDemo1.aspx" />
     <Content Include="ChartDemo2.aspx" />
     <Content Include="ChartDemo3.aspx" />
+    <Content Include="ChartDemo4.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
@@ -159,6 +160,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="Students.xml" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
@@ -201,6 +203,13 @@
     </Compile>
     <Compile Include="ChartDemo3.aspx.designer.cs">
       <DependentUpon>ChartDemo3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ChartDemo4.aspx.cs">
+      <DependentUpon>ChartDemo4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ChartDemo4.aspx.designer.cs">
+      <DependentUpon>ChartDemo4.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
